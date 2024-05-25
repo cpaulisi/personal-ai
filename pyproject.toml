@@ -8,11 +8,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-datasets = "^2.19.1"
+datasets = "2.14.6"
 ipykernel = "^6.29.4"
 jupyter = "^1.0.0"
 ipywidgets = "^8.1.2"
 torch = "^2.3.0"
+scikit-learn = "^1.5.0"
+dspy-ai = "^2.4.9"
+transformers = "^4.41.1"
+accelerate = "^0.30.1"
 
 
 [build-system]
