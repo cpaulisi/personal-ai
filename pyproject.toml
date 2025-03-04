@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.12,<3.13"
 datasets = "2.14.6"
 ipykernel = "^6.29.4"
 jupyter = "^1.0.0"
@@ -21,6 +21,8 @@ guidance = "^0.1.16"
 python-dotenv = "^1.0.1"
 dspy = "^2.5.15"
 huggingface-hub = "^0.26.1"
+gym = "^0.26.2"
+outlines = {extras = ["openai"], version = "^0.2.1"}
 
 
 [tool.poetry.group.dev.dependencies]
